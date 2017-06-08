@@ -1,0 +1,190 @@
+@import "http://";
+@charset "utf-8";
+
+
+body {
+	font-size: 13px;
+	*font-size: small; /* IE7 */
+	*font: x-small; /* IE6 */
+}
+
+* {line-height: 1.6;font-size: 100%;}
+
+
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	color: #5D5D5D;
+	margin:0 auto;
+	background-color:#ffffff;
+	padding:0;
+	font-family: Verdana, Arial, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+
+p {
+	line-height: 1.9;
+	text-align: justify;
+	text-justify: distribute;
+}
+
+
+p, ul, ol, dl, table, pre {
+	font-size: 100%;
+	letter-spacing: 0.02em;
+}
+
+img {border: 0;	vertical-align: bottom;}
+
+
+/***** Link styles
+*******************************************/
+
+#out a {text-decoration: none;}
+
+#out a:link {
+	color: #337ED2;
+	border-bottom: 1px solid #56AEE1;
+}
+
+#out a:visited {
+	color: #56AEE1;
+	border-bottom: 1px solid #56AEE1;
+}
+
+#out a:hover {
+	color: #337ED2;
+	border-bottom: 1px solid #337ED2;
+}
+
+/***** layout styles
+*******************************************/
+
+
+#out {
+	margin:0 auto 10px auto;
+	text-align: left;
+	width:800px;
+	border-right: 1px solid #eccccc;
+	border-left: 1px solid #eccccc;
+	background-color:#FFFFFF;
+}
+
+
+/* --- ヘッダ --- */
+#header {
+	position: relative; /* 相対配置（ガイドメニューのために設定） */
+	width: 100%; /* IE 6のために幅の指定が必要 */
+	margin: 0 0 10px; /* ヘッダのマージン（上、左右、下） */
+	padding: 15px 0 0; /* ヘッダのパディング（上、左右、下） */
+	border-bottom: 1px solid #eccccc;
+}
+
+/* --- サイトタイトル --- */
+#header h1.siteTitle {
+	text-align: left;
+	margin:0px auto 10px auto;
+	padding:20px 0 10px 40px;
+	font-size: 350%;
+	font-weight:normal;
+}
+
+/* --- ガイドメニュー --- */
+#header ul.guide {
+	position: absolute; /* 絶対配置 */
+	top: 20px; /* 上からの距離 */
+	right: 3em; /* 右からの距離 */
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/* メニュー項目 */
+#header ul.guide li {
+	display: inline;
+	padding: 0 4px 0 8px; /* 項目のパディング（上右下左） */
+}
+/* --- 言語メニュー --- */
+#header p.navLang {
+	position: absolute; /* 絶対配置 */
+	top: 50px; /* 上からの距離 */
+	right: 3em; /* 右からの距離 */
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+
+
+h1 {
+	font-size: 160%;
+	font-weight:normal;
+	margin:0 0 5px 0;
+	padding:0;
+}
+
+h2 {
+	font-size: 100%;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+
+}
+
+h3 {
+	font-size: 130%;
+	font-weight:normal;
+	margin:2.5em 0 1em 0;
+	padding:0 0 0 0px;
+}
+
+h4 {
+	font-size: 130%;
+	font-weight:normal;
+	margin:2.5em 0 1em 0;
+	padding:0 0 5px 0px;
+	border-bottom: 1px solid #ccaaaa;
+}
+
+#main{
+	letter-spacing: 0.1em;
+	font-size: 110%;
+	line-height: 1.9;
+	margin:0 0em 0 3em;
+	padding:0 3em 0 0;
+	width:600px;
+	float:left;
+}
+
+
+#main ul {
+	margin:0 5px 5px 0;
+	padding: 3px;
+	list-style: circle;
+}
+
+#main li {
+	margin: 0.5em 0 0.5em 1.5em;
+	letter-spacing: 0.02em;
+	padding: 0.3em 0 0.3em 0.1em;
+}
+
+
+.clear {
+    clear:both;　/*floatの解除、ここがポイント*/
+}
+
+
+
+
+
+
+
+
+
+
